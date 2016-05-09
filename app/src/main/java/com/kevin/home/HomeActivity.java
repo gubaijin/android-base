@@ -1,15 +1,15 @@
-package com.kevin.welcome;
+package com.kevin.home;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.kevin.R;
 
-public class WelcomeActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_home);
     }
 }
